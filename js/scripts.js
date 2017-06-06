@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $("p#square").click(function() {
-        $("p").removeClass();
-        $("p").highlightbox();
+  $(".clickable").click(function() {
+    $("#walrus-showing").toggle();
+    $("#walrus-hidden").toggle();
   });
 });
